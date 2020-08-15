@@ -51,6 +51,8 @@ no arquivo resources -> views -> layouts -> app.blade.php, na linha 23, é neces
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=API_KEY&libraries=places"></script>
 
 No arquivo .env realizar as devidas configurações de banco de dados:
+
+
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
 DB_PORT=5432
@@ -59,6 +61,8 @@ DB_USERNAME=postgres
 DB_PASSWORD=master
 
 No arquivo .env realizar as devidas configurações de email:
+
+
 MAIL_DRIVER=smtp
 MAIL_HOST=smtp.mailtrap.io
 MAIL_PORT=2525
