@@ -10,13 +10,21 @@ Sistema destinado a controle de frota de veículo em geral.
 ### Modulos disponíveis no momento:
 
 Cadastro de marcas;
+
 Cadastro de fornecedores;
+
 Cadastro de motoristas;
+
 Cadastro de veículos;
+
 Cadastro de tipos de veículos;
+
 Cadastro de usuários;
+
 Cadastro de pontos de viagens (Masterpoints);
+
 Cadastro de viagens (Usando masterpoints);
+
 Cadastro de pneus;
 
 ![](header.png)
@@ -52,23 +60,33 @@ no arquivo resources -> views -> layouts -> app.blade.php, na linha 23, é neces
 
 No arquivo .env realizar as devidas configurações de banco de dados:
 
-
 DB_CONNECTION=pgsql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=5432
+
 DB_DATABASE=entirefleet
+
 DB_USERNAME=postgres
+
 DB_PASSWORD=master
+
 
 No arquivo .env realizar as devidas configurações de email:
 
-
 MAIL_DRIVER=smtp
+
 MAIL_HOST=smtp.mailtrap.io
+
 MAIL_PORT=2525
+
 MAIL_USERNAME=USERNAME
+
 MAIL_PASSWORD=PASSWORD
+
 MAIL_FROM_ADDRESS=noreply@entirefleet.com
+
 MAIL_FROM_NAME=Entire-Fleet
 
 -------------------------------------------------------------------------------------
