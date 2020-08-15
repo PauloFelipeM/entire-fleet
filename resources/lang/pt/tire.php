@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'front_left' => 'Dianteiro esquerdo',
+    'front_right' => 'Dianteiro direito',
+    'back_left' => 'Traseiro esquerdo',
+    'back_right' => 'Traseiro direito',
+    'reserve' => 'Reserva',
+    'used' => 'Utilizado',
+    'available' => 'Disponível',
+
+    'search_placeholder' => 'Pesquisar pneus..',
+    'title_pluralize' => 'Pneus',
+    'vehicle_id' => 'Veículo',
+    'select_a_vehicle' => 'Selecione um veículo',
+    'provider_id' => 'Fornecedor',
+    'select_a_provider' => 'Selecione um fornecedor',
+    'vehicle_spot' => 'Localização do pneu',
+    'select_a_spot' => 'Selecione uma Localização',
+    'serie_number' => 'Numero de série',
+    'brand' => 'Marca',
+    'dimension' => 'Dimensões',
+    'note_number' => 'Numero da nota',
+    'value' => 'Valor da compra',
+    'km_total' => 'KM (Vida útil)',
+    'validate_date' => 'Data da validade',
+    'purchase_date' => 'Data da compra',
+    'change_date' => 'Data da troca',
+    'status' => 'Status',
+    'comment' => 'Observação',
+    'km_vehicle_change' => 'KM do veículo na troca',
+];
